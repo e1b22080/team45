@@ -5,6 +5,16 @@ public class Fruit {
   String name;
   int price;
 
+  public Fruit() {
+
+  }
+
+  public Fruit(int id2, String name2, int price2) {
+    this.id = id2;
+    this.name = name2;
+    this.price = price2;
+  }
+
   public int getId() {
     return id;
   }
